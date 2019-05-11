@@ -1,0 +1,66 @@
+/* 初始化部分 */
+body {
+    margin: 0;
+    padding: 0;
+    color: #8c8c8c;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* 初始化部分结束 */
+/* 头部部分开始start */
+ .nav {
+     width: 1480px;
+     height: 82px;
+     margin: 0 auto;
+ }
+ .nav-l {
+     width: 250px;
+     height: 82px;
+     position: relative;
+ }
+ .nav-l a img {
+     width: 48px;
+     height: 40px;
+     margin-top: 16px;
+     margin-right: 14px;
+ }
+ .nav-l a span {
+     display: inline-block;
+     font-weight: 700;
+     font-family: "微软雅黑";
+     font-size: 20px;
+     color: #252625;
+     position: absolute;
+     top: 20px;
+ }
+ .nav-c {
+     width: 867px;
+     height: 82px;
+ }
+ .nav-c-search {
+     width: 335px;
+     height: 35px;
+     border-radius: 0.9;
+ }
+ .nav-c button {
+     width: 43px;
+     height: 35px;
+     background-color: #F5F5F5;
+     background: url(images/icon-color-table.png) no-repeat 12px 10px;
+     border-right: none;
+     margin-top: 16px;
+ }
+ .nav-c input {
+     
+ }
