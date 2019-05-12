@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的文档.语雀</title>
+    <style>
+    body {
+    margin: 0;
+    padding: 0;
+    color: #8c8c8c;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:  #8A8A89
+}
+.clearfix：after{
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    display: block;
+    clear: both;
+    }
+    .clearfix {
+        zoom: 1;
+    }
+
+/* 初始化部分结束 */
+/* 头部部分开始start */
+ .nav {
+     width: 1480px;
+     height: 82px;
+     margin: 0 auto;
+ }
+ .nav-l {
+     width: 250px;
+     height: 82px;
+     position: relative;
+ }
+ .nav-l a img {
+     width: 48px;
+     height: 40px;
+     margin-top: 16px;
+     margin-right: 14px;
+ }
+ .nav-l a span {
+     display: inline-block;
+     font-weight: 700;
+     font-family: "微软雅黑";
+     font-size: 20px;
+     color: #252625;
+     position: absolute;
+     top: 20px;
+ }
+ .nav-c {
+     width: 660px;
+     height: 82px;
+ }
+ .nav-c-search {
+     width: 335px;
+     height: 35px;
+     border-radius: 8px;
+     background-color: #F5F5F5;
+     margin-top: 16px;
+     float: left;
+ }
+ .nav-c button {
+     width: 43px;
+     height: 35px;
+     background: url(images/search.png) no-repeat 12px 10px;
+     border: none;
+     outline: none;
+     float: left;
+ }
+ .nav-c input {
+     width: 292px;
+     height: 35px;
+     border: none;
+     float: right;
+     background: #F5F5F5;
+     outline: none;
+ }
+ .nav-c-found  {
+      width: 317px;
+      height: 35px;
+      line-height: 35px;
+      float: right;
+ }
+ .nav-c-found ul li {
+     float: left;
+    margin: 0  15px;
+ }
+ #work {
+     font-weight: 700;
+     color: black;
+     font-size: 16px;
+ }
+ .nav-r {
+     width: 174px;
+     height: 82px;
+     position: relative;
+ }
+ .nav-r .icon1 {
+    position: absolute;
+    top: 25px;
+ }
+ .nav-r .icon2 {
+     position: absolute;
+    top: 26px;
+    left: 22px;
+ }
+ .nav-r .icon3 {
+     position: absolute;
+     top: 24px;
+     left: 64px;;
+ }
+ .nav-r .icon4 {
+   position: absolute;
+   top: 26px;
+   right: 16px;
+ }
+ .nav-r .icon4 img {
+     border-radius: 8px;
+ }
+ /* 头部部分结束end */
+  /* <!-- 主体部分开始start --> */
+  .content {
+      width: 100%;
+      height: 912px;
+      background-color: #d0eed0;
+  }
+  /* <!-- 主体左侧部分开始start --> */
+    .content-l {
+        width: 120px;
+        height: 540px;
+        float: left;
+        margin-left: 205px;
+        padding-top: 20px;
+    }
+    .content-l ul li {
+        padding:12px 0;
+    }
+   .content-l-bottom {
+       margin-top: 35px;
+   }
+   .content-l a {
+       display: block;
+       width: 120px;
+       padding-left: 10px;
+   }
+   .content-l a img {
+       padding-right: 6px;
+       vertical-align: middle;
+   }
+   .content-l a:visited{
+        color: #3ACC7B;
+   }
+   .content-l a:hover {
+       background-color: antiquewhite;
+   }
+   /* <!-- 主体左侧部分结束end --> */
+   .con-c {
+       width: 986px;
+       height: 200px;
+       float: left;
+       margin-left: 115px;
+       margin-top: 23px;
+       background: #Fff;
+   }
+   .con-c .first {
+       width: 986px;
+       height: 54px;
+       border: 1px solid #E6E6E6;
+      position: relative;
+    
+   }
+   .con-c .first p {
+      float: left;
+      margin-left: 18px;
+      margin-top: 18px;
+      color: #000;
+   }
+   .first .search {
+       width: 188px;
+       height: 34px;
+       float: right;
+       border: 1px solid #E6E6E6;
+       border-radius: 5px;
+       margin-top: 10px;
+       margin-right: 135px;
+   }
+   .first .search button{
+       width: 32px;
+       height: 32px;
+       outline: none;
+       border: none;
+       background: #Fff;
+       background: url(images/search.png) no-repeat 5px 10px;
+   }
+   .first .search input {
+       border: none;
+       width: 156px;
+       height: 32px;
+       outline:none;
+       float: right;
+   }
+   .first .newdoc {
+       width: 84px;
+       height: 32px;
+       line-height: 32px;
+       background: rgb(5, 112, 235);
+       color: #fff;
+       font-size: 14px;
+       text-align: center;
+       float: right;
+       margin-top: 10px;
+       border-radius: 5px;
+       position: absolute;
+       right: 25px; 
+   }
+    .con-c .second {
+        width: 986px;
+        height: 42px;
+        border: 1px solid #E6E6E6;
+        position: relative;
+        background:#FAFAFA;
+        font-size: 14px;
+    }
+    .second .name {
+        position: absolute;
+        top: 12px;
+        left: 18px;
+    }
+    .second .zhuangtai {
+        position: absolute;
+        top: 12px;
+        left: 434px;
+    }
+    .second .from {
+        position: absolute;
+        top: 12px;
+        left: 644px;
+    }
+    .con-c .third {
+        position: relative;
+        width: 986px;
+        height: 49px;
+        border: 1px solid #E6E6E6;
+    }
+    .third .logo {
+        position: absolute;
+        top: 13px;
+        left: 16px;
+    }
+    .third span {
+        position: absolute;
+        top: 15px;
+        left: 47px;
+        color: #000;
+    }
+    .third p {
+        position: absolute;
+        left: 644px;
+    }
+    .third a {
+        position: absolute;
+        top: 15px;
+        right:23px;
+        color: rgb(12, 83, 236);
+    }
+    .third .nopull {
+        position: absolute;
+        top: 15px;
+        left: 442px;
+        border: 1px solid #DADADA;
+        border-radius: 5px;
+        font-size: 14px;
+        background: #FAFAFA;
+    }
+    </style>
+</head>
+<body>
+    <!-- 头部部分开始start -->
+       <div class="nav">
+        <div class="nav-l fl">
+            <a href="https://www.yuque.com" target="_black">
+                <img src="images/queque.png">
+                <span>语&nbsp;雀</span>
+            </a>
+        </div>
+        <div class="nav-c fl">
+            <div class="nav-c-search">
+            <button></button> <input type="text" placeholder='搜索'>
+        </div>
+        <div class="nav-c-found">
+            <ul>
+                <li id="work"> 工作台 </li>
+                <li><a href="#"> 空间</a></li>
+                <li><a href="#"> 发现</a></li>
+                <li><a href="#"> 帮助</a></li>
+            </ul>    
+        </div>
+        </div>
+        <div class="nav-r fr">
+            <div class="icon1">
+                <img src="images/asdfg.png" alt="">
+            </div>
+            <div class="icon2">
+                <img src="images/asdf.png" alt="">
+            </div>
+            <div class="icon3">
+                <img src="images/h.png" alt="">
+            </div>
+            <div class="icon4">
+                <img src="images/touxiang.png" alt="" width="24px" height="24px">
+            </div>
+        </div>
+        </div>
+    <!-- 头部部分结束end -->
+    <!-- 主体部分开始start -->
+     <div class="content">
+         <!-- 主体左侧部分开始start -->
+         <div class="content-l">
+             <div class="content-l-top">
+             <ul>
+                 <li> <a href="index.html" target="_black"><img src="images/1.png" alt="">工作台</a></li>
+                 <li><a href="#"></a></li>
+                 <li> <a href="#"><img src="images/2.png" alt="">文档</a> </li>
+                 <li> <a href="#"><img src="images/3.png" alt=""> 知识库</a></li>
+                 <li> <a href="#"><img src="images/4.png" alt="">团队</a></li>
+             </ul>
+            </div>
+             <div class="content-l-bottom">
+                 <ul>
+                     <li><a href="#"><img src="images/8.png" alt="">协作</a></li>
+                     <li><a href="#"><img src="images/5.png" alt="">讨论</a></li>
+                     <li><a href="#"><img src="images/6.png" alt="">关注</a></li>
+                     <li><a href="#"><img src="images/7.png" alt="">收藏</a></li>
+                     <li><a href="#"></a></li>
+                     <li><a href="#"><img src="images/9.png" alt="">回收站</a></li>
+                 </ul>  
+             </div>
+         </div>
+         <!-- 主体左侧部分结束end -->
+         <div class="con-c">
+             <div class="first">
+                 <p>最近编辑的▽</p>
+                 <div class="newdoc">新建文档</div>
+                 <div class="search">
+                        <button></button><input type="text" placeholder='搜索'>
+                    </div>
+             </div>
+             <div class="second">
+                 <div class="name">名称</div>
+                 <div class="zhuangtai">状态◆</div>
+                 <div class="from">归属</div>
+             </div>
+             <div class="third">
+                 <div class="logo"><img src="images/asdfg.png" alt="" width="28px" height="28px"></div>
+                 <span>Javascrip</span>
+                 <p>Leechar/我是一只猪</p>
+                 <a href="#">编辑</a>
+             </div>
+             <div class="third">
+                    <div class="logo"><img src="images/icon-color-table.png" alt="" width="28px" height="28px"></div>
+                    <span>无标题</span>
+                    <div class="nopull">未发布</div>
+                    <p>Leechar/我是一只猪</p>
+                    <a href="#">编辑</a>
+                </div>
+    
+     </div>
+    <!-- 主体部分结束end -->
+    
+</body>
+</html>

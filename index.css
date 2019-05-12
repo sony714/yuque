@@ -15,7 +15,19 @@ li {
 }
 a {
     text-decoration: none;
+    color:  #8A8A89
 }
+.clearfix：after{
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    display: block;
+    clear: both;
+    }
+    .clearfix {
+        zoom: 1;
+    }
 
 /* 初始化部分结束 */
 /* 头部部分开始start */
@@ -45,22 +57,240 @@ a {
      top: 20px;
  }
  .nav-c {
-     width: 867px;
+     width: 660px;
      height: 82px;
  }
  .nav-c-search {
      width: 335px;
      height: 35px;
-     border-radius: 0.9;
+     border-radius: 8px;
+     background-color: #F5F5F5;
+     margin-top: 16px;
+     float: left;
  }
  .nav-c button {
      width: 43px;
      height: 35px;
-     background-color: #F5F5F5;
-     background: url(images/icon-color-table.png) no-repeat 12px 10px;
-     border-right: none;
-     margin-top: 16px;
+     background: url(images/search.png) no-repeat 12px 10px;
+     border: none;
+     outline: none;
+     float: left;
  }
  .nav-c input {
-     
+     width: 292px;
+     height: 35px;
+     border: none;
+     float: right;
+     background: #F5F5F5;
+     outline: none;
  }
+ .nav-c-found  {
+      width: 317px;
+      height: 35px;
+      line-height: 35px;
+      float: right;
+ }
+ .nav-c-found ul li {
+     float: left;
+    margin: 0  15px;
+ }
+ #work {
+     font-weight: 700;
+     color: black;
+     font-size: 16px;
+ }
+ .nav-r {
+     width: 174px;
+     height: 82px;
+     position: relative;
+ }
+ .nav-r .icon1 {
+    position: absolute;
+    top: 25px;
+ }
+ .nav-r .icon2 {
+     position: absolute;
+    top: 26px;
+    left: 22px;
+ }
+ .nav-r .icon3 {
+     position: absolute;
+     top: 24px;
+     left: 64px;;
+ }
+ .nav-r .icon4 {
+   position: absolute;
+   top: 26px;
+   right: 16px;
+ }
+ .nav-r .icon4 img {
+     border-radius: 8px;
+ }
+ /* 头部部分结束end */
+  /* <!-- 主体部分开始start --> */
+  .content {
+      width: 100%;
+      height: 1200px;
+      background-color: #d0eed0;
+  }
+  /* <!-- 主体左侧部分开始start --> */
+    .content-l {
+        width: 120px;
+        height: 540px;
+        float: left;
+        margin-left: 205px;
+        padding-top: 20px;
+    }
+    .content-l ul li {
+        padding:12px 0;
+    }
+   .content-l-bottom {
+       margin-top: 35px;
+   }
+   .content-l a {
+       display: block;
+       width: 120px;
+       padding-left: 10px;
+       color: #3ACC7B;
+   }
+   .content-l a img {
+       padding-right: 6px;
+       vertical-align: middle;
+   }
+   .content-l a:hover{
+        color: rgb(224, 131, 182);
+   }
+   .content-l a:hover {
+       background-color: antiquewhite;
+   }
+   /* <!-- 主体左侧部分结束end --> */
+   /* <!-- 主体中间部分开始start --> */
+  .content-c {
+      width: 864px;
+      height: 714px;
+      margin-left: 130px;
+     float: left
+  }
+  .content-c-top {
+      width: 864px;
+      height: 390px;
+      margin-top: 3px;
+  }
+  .content-c-top-text {
+      width: 864px;
+      height: 80px;
+  }
+  .content-c-top-text  span {
+      display: inline-block;
+      height: 80px;
+      float: left;
+      line-height: 80px;
+  }
+ 
+  .content-c-top-text .newdoc {
+      width: 101px;
+      height: 30px;
+      background:#FDFCFB;
+      float: right;
+      text-align: center;
+      padding-top:10px;
+      margin-top: 20px;
+      border: 1px solid #D9DADA;
+      border-radius: 10px;
+      margin-right: 10px;
+  }
+   .content-c-top-doc {
+       width: 864;
+       height: 634px;
+   }
+   .content-box {
+       width: 418px;
+       height: 92px;
+       float: left;
+       border: 1px solid #E9E9E9;
+       margin-right: 10px;
+       margin-bottom: 10px;
+       border-radius: 10px;
+       background: url(images/yes.png) no-repeat 381px 21px;
+       background-color: #fff;
+   }
+   .content-box img {
+       width: 32px;
+       height: 32px;
+       margin-left: 20px;
+       margin-top: 32px;
+   }
+   .content-box .word {
+       width: 340px;
+       height: 30px;
+       float: right;
+       margin-top:28px;
+   }
+   .content-box .word span {
+       font-size: 18px;
+       color: #000;
+   }
+   /* <!-- 主体中间部分结束end -->
+         <!-- 主体右半部分开始start --> */
+   .content-r {
+       width: 345px;
+       height: 912px;
+       margin-right: 180px;
+   }
+   .content-r-first {
+       width: 345px;
+       height: 80px;
+   }
+   .content-r-first span {
+       display: inline-block;
+       height: 80px;
+       line-height: 80px;
+   }
+   .content-r-first .team {
+        width: 104px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        float: right;
+        margin-top:23px;
+        border: 1px solid #F5F5F5;
+        background: #FDFCFB;
+        border-radius: 10px;
+   }
+   .content-r-second {
+       width: 345px;
+       height: 110px;
+       text-align: center;
+       line-height: 110px;
+       background: #fff;
+       margin-bottom: 35px;
+   }
+   .content-r-second a {
+       color: #0000ff;
+   }
+   .content-r-pic {
+       width: 345px;
+       height: 260px;
+       border: 1px solid #afacac;
+       background: #fff;
+       margin-bottom: 30px;
+   }
+   .content-r-pic img {
+       width: 347px;
+       height: 200px;
+   }
+   .content-r-pic span {
+       display:inline-block;
+       height: 60px;
+       width: 345px;
+       font-weight: 700;
+       color: #000;
+       font-size: 18px;
+       line-height: 60px;
+      padding-left: 21px;
+   }
+    .content-r ul li {
+        margin-bottom: 15px;
+    }
+    /* <!-- 主体右半部分结束end --> */
+  /* <!-- 主体部分结束end -->  */
