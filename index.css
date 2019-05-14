@@ -35,6 +35,8 @@ a {
      width: 1480px;
      height: 82px;
      margin: 0 auto;
+     background: #fff;
+     border-bottom: 2px solid #EFEFEF;
  }
  .nav-l {
      width: 250px;
@@ -106,7 +108,7 @@ a {
  }
  .nav-r .icon1 {
     position: absolute;
-    top: 25px;
+    top: 24px;
  }
  .nav-r .icon2 {
      position: absolute;
@@ -115,13 +117,13 @@ a {
  }
  .nav-r .icon3 {
      position: absolute;
-     top: 24px;
+     top: 26px;
      left: 64px;;
  }
  .nav-r .icon4 {
    position: absolute;
    top: 26px;
-   right: 16px;
+   right: 30px;
  }
  .nav-r .icon4 img {
      border-radius: 8px;
@@ -131,7 +133,7 @@ a {
   .bac {
       width: 100%;
       height: 1200px;
-      background-color: #d0eed0;
+      background-color: rgb(251,251,251);
   }
   .content {
       width: 1480px;
@@ -146,6 +148,9 @@ a {
         /* margin-left: 205px; */
         padding-top: 20px;
     }
+    .content-l ul {
+        padding: 0;
+    }
     .content-l ul li {
         padding:12px 0;
     }
@@ -155,8 +160,7 @@ a {
    .content-l a {
        display: block;
        width: 120px;
-       padding-left: 10px;
-       color: #3ACC7B;
+       /* padding-left: 10px; */
    }
    .content-l a img {
        padding-right: 6px;
@@ -166,7 +170,7 @@ a {
         color: rgb(224, 131, 182);
    }
    .content-l a:hover {
-       background-color: antiquewhite;
+       background-color: hsla(40, 81%, 71%, 0.87);
    }
    /* <!-- 主体左侧部分结束end --> */
    /* <!-- 主体中间部分开始start --> */
